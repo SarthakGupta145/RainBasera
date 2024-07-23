@@ -1,0 +1,25 @@
+/* styles.css */
+.password-container {
+    position: relative;
+    width: 300px;
+}
+
+#password {
+    width: 100%;
+    padding-right: 40px;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#togglePassword img {
+    width: 200px;
+    height: 2000px;
+}
